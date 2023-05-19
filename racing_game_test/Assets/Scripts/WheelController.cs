@@ -5,15 +5,15 @@ using UnityEngine;
 public class WheelController : MonoBehaviour
 {
 
-    public WheelCollider front_right;
-    public WheelCollider front_left;
-    public WheelCollider rear_right;
-    public WheelCollider rear_left;
+    [SerializeField] WheelCollider front_right;
+    [SerializeField] WheelCollider front_left;
+    [SerializeField] WheelCollider rear_right;
+    [SerializeField] WheelCollider rear_left;
 
-    public Transform front_right_mesh;
-    public Transform front_left_mesh;
-    public Transform rear_right_mesh;
-    public Transform rear_left_mesh;
+    [SerializeField] Transform front_right_mesh;
+    [SerializeField] Transform front_left_mesh;
+    [SerializeField] Transform rear_right_mesh;
+    [SerializeField] Transform rear_left_mesh;
 
     public float acceleration = 500f;
     public float break_force = 300f;
@@ -56,8 +56,9 @@ public class WheelController : MonoBehaviour
 
         //Optimize!
         updateWheel(front_left, front_left_mesh);
-        updateWheel(front_right, front_right_mesh);
         updateWheel(rear_left, rear_left_mesh);
+
+        updateWheel(front_right, front_right_mesh);
         updateWheel(rear_right, rear_right_mesh);
     }
 
@@ -66,7 +67,6 @@ public class WheelController : MonoBehaviour
         Vector3 pos;
         Quaternion rot;
         col.GetWorldPose(out pos, out rot);
-        Debug.Log("DEBUG: " + "Rot: " + rot + " Pos: " + pos);
 
         trans.position = pos;
         trans.rotation = rot;
