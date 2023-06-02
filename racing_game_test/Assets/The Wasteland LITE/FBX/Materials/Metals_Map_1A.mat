@@ -10,12 +10,19 @@ Material:
   m_Name: Metals_Map_1A
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
+<<<<<<< HEAD
   - _EMISSION
+=======
+>>>>>>> dd304709028f24170503e09c193c995b33610922
   - _NORMALMAP
   - _SPECGLOSSMAP
   m_InvalidKeywords:
   - _METALLICGLOSSMAP
+<<<<<<< HEAD
   m_LightmapFlags: 1
+=======
+  m_LightmapFlags: 5
+>>>>>>> dd304709028f24170503e09c193c995b33610922
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -70,15 +77,22 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+<<<<<<< HEAD
     - _GlossMapScale: 1
     - _Glossiness: 0.35
     - _GlossyReflections: 1
+=======
+    - _Glossiness: 0.35
+>>>>>>> dd304709028f24170503e09c193c995b33610922
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.08
+<<<<<<< HEAD
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+=======
+>>>>>>> dd304709028f24170503e09c193c995b33610922
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1

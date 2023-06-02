@@ -15,7 +15,11 @@ MonoBehaviour:
   name: M1911
   damage: 25
   maxDistance: 300
+<<<<<<< HEAD
   currentAmmo: 24
+=======
+  currentAmmo: 21
+>>>>>>> dd304709028f24170503e09c193c995b33610922
   magSize: 25
   fireRate: 300
   reloadTime: 2

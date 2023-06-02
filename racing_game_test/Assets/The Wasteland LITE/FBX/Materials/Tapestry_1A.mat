@@ -11,10 +11,16 @@ Material:
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
   - _ALPHATEST_ON
+<<<<<<< HEAD
   - _EMISSION
   - _NORMALMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 1
+=======
+  - _NORMALMAP
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+>>>>>>> dd304709028f24170503e09c193c995b33610922
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2450
@@ -66,15 +72,22 @@ Material:
     - _Cutoff: 0.003
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+<<<<<<< HEAD
     - _GlossMapScale: 1
     - _Glossiness: 0.35
     - _GlossyReflections: 1
+=======
+    - _Glossiness: 0.35
+>>>>>>> dd304709028f24170503e09c193c995b33610922
     - _Metallic: 0.1
     - _Mode: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+<<<<<<< HEAD
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+=======
+>>>>>>> dd304709028f24170503e09c193c995b33610922
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
